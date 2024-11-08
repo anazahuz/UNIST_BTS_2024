@@ -223,7 +223,7 @@ class App:
             self.data_event.clear()
 
         # Schedule the next update
-        self.root.after(int(1000/60), self.update_plot)  # 그래프는 60Hz로 업데이트
+        self.root.after(int(1000/120), self.update_plot)  # 그래프는 60Hz로 업데이트
 
     def __del__(self):
         # Stop data collector thread
