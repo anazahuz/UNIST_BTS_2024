@@ -1,0 +1,24 @@
+# Python 관련 파일 및 폴더
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상 환경 폴더
+venv/
+ENV/
+env/
+.venv/
+
+# IDE 설정 파일
+.idea/
+.vscode/
+
+# 데이터 파일
+data/rawdata/
+
+# 로그 파일
+*.log
+
+# 기타
+*.swp
+*~
