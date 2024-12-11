@@ -41,7 +41,7 @@ class DataCollector(threading.Thread):
 
             time.sleep(1/120)  # 120Hz로 데이터 수집
 
-class App:
+class Record:
     def __init__(self):
         # Initialize variables
         self.recording = False
